@@ -1,5 +1,46 @@
+body {
+  background: radial-gradient(circle at top center, #f2f7f0, #dce7d8 45%, #b8d8bb 100%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #243a2c;
+}
+
+.navbar {
+  background-color: #f8fbf7;
+}
+
+.navbar-brand {
+  color: #2f5f44;
+}
+
+.btn-primary {
+  background-color: #2f5f44;
+  border-color: #2f5f44;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #243c30;
+  border-color: #243c30;
+}
+
+.btn-outline-primary {
+  color: #2f5f44;
+  border-color: #2f5f44;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #2f5f44;
+  color: #ffffff;
+}
+
+.card {
+  border: 1px solid #acc7a5;
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
 .collection-card-image {
-  height: 180px;
+  height: 200px;
 }
 
 .collection-description {
@@ -11,5 +52,5 @@
 }
 
 .item-detail-image {
-  max-height: 320px;
+  max-height: 360px;
 }

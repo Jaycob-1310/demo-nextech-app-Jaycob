@@ -59,6 +59,8 @@ const app = Vue.createApp({
                 category: String(row.category || '').trim(),
                 imageUrl: String(row.image_url || '').trim(),
                 location: String(row.location || '').trim(),
+                period: String(row.period || '').trim(),
+                howLived: String(row.how_lived || '').trim(),
               }));
               itemsStore.error = '';
             }

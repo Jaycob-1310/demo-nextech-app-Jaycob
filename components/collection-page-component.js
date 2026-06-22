@@ -10,11 +10,11 @@ export default {
   template: /* html */ `
     <section class="container py-4">
       <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1 class="h3 mb-0">Collection</h1>
-        <span class="badge text-bg-light border">{{ itemsStore.items.length }} shown</span>
+        <h1 class="h3 mb-0">Extinct Species Collection</h1>
+        <span class="badge text-bg-light border">{{ itemsStore.items.length }} species shown</span>
       </div>
 
-      <p class="text-muted">Browse a simple dataset loaded from a CSV file.</p>
+      <p class="text-muted">Browse extinct species and click any card to see more about when, where, and how they lived.</p>
 
       <div v-if="itemsStore.isLoading" class="alert alert-secondary" role="status">
         Loading items...
@@ -52,6 +52,7 @@ export default {
                 {{ item.description || 'No description available.' }}
               </p>
 
+              <p class="small mb-1"><strong>When:</strong> {{ item.period || 'Unknown' }}</p>
               <p class="small mb-3"><strong>Location:</strong> {{ item.location || 'N/A' }}</p>
 
               <div class="d-grid">

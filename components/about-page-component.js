@@ -3,7 +3,8 @@ export default {
   template: /* html */ `
     <section class="container py-4">
       <h1>About</h1>
-      <p>This page is about the designer and builder of this app, including their background, portfolio of other work, and future career intentions.</p>
+      <p>This app is a simple learning project designed to help Ethan explore extinct species. It shows a list of species that lived in different times and places, and it lets users read more about each one.</p>
+      <p>The goal is to keep the experience clear, focused, and easy to use while the app grows into a helpful science learning tool.</p>
     </section>
   `,
 };

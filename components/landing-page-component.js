@@ -5,10 +5,9 @@ export default {
       <div class="hero-panel">
         <div class="row g-4 align-items-center">
           <div class="col-lg-7">
-            <span class="accent-pill"><i class="bi bi-compass"></i>Prehistoric learning guide</span>
-            <h1 class="display-5 fw-bold mb-3">Journey through the extinct world</h1>
+            <h1 class="display-5 fw-bold mb-3">Extinct Species Database</h1>
             <p class="lead mb-4">
-              Explore animals and plants that lived long ago and learn why, what, when, where, and how they survived in their time.
+              Explore animals that lived long ago and learn why, what, when, where, and how they survived in their time.
             </p>
             <div class="d-flex flex-wrap gap-2">
               <router-link to="/items" class="btn btn-primary">
@@ -21,18 +20,15 @@ export default {
           </div>
 
           <div class="col-lg-5">
-            <div class="hero-card">
+              <div class="hero-card-header">
+                <h2 class="h5 mb-0">Featured Species</h2>
+          <div class="hero-card">
               <img
-                src="https://picsum.photos/seed/extinct-guide/900/650"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Ankylosaurus_magniventris_by_sphenaphinae.png/500px-Ankylosaurus_magniventris_by_sphenaphinae.png"
                 alt="Illustration of prehistoric life"
                 class="hero-image" />
               <div class="hero-card-body">
-                <h2 class="h5 mb-2">What this guide covers</h2>
-                <ul class="feature-list">
-                  <li><i class="bi bi-check-circle-fill"></i>Who the species were and what made them unique</li>
-                  <li><i class="bi bi-check-circle-fill"></i>Where they lived and when they existed</li>
-                  <li><i class="bi bi-check-circle-fill"></i>How they survived and why they disappeared</li>
-                </ul>
+                <h3 class="h6 mb-1">Ankylosaurus</h3>
               </div>
             </div>
           </div>
@@ -41,27 +37,27 @@ export default {
 
       <div class="page-section">
         <div class="section-heading">
-          <h2>Discover in three simple steps</h2>
-          <p class="text-muted mb-0">Each page is designed to make the facts easy to scan and explore.</p>
+          <h2>Description</h2>
+          <p class="text-muted mb-0">Ankylosaurus was a heavily armored herbivore that lived during the late Cretaceous period.</p>
         </div>
 
         <div class="row g-3">
           <div class="col-md-4">
             <article class="page-card">
-              <h3 class="h6">Browse the collection</h3>
-              <p class="mb-0 text-muted">Start with short previews of each extinct species and pick one that interests you.</p>
+              <h3 class="h6">Informaion</h3>
+              <p class="mb-0 text-muted">Late Cretaceous, North America, Anklosaurid, Herbivore</p>
             </article>
           </div>
           <div class="col-md-4">
             <article class="page-card">
-              <h3 class="h6">Open the detail view</h3>
-              <p class="mb-0 text-muted">Read a richer set of facts about where the species lived and how it survived.</p>
+              <h3 class="h6">Discovery</h3>
+              <p class="mb-0 text-muted">Ankylosaurus was first discovered in 1906 by Peter Kaisen, a member of an expedition from the American Museum of Natural History led by Barnum Brown. The fossils were found in the Hell Creek Formation near Gilbert Creek, Montana, USA</p>
             </article>
           </div>
           <div class="col-md-4">
             <article class="page-card">
-              <h3 class="h6">Keep learning</h3>
-              <p class="mb-0 text-muted">Use the simple navigation to move between home, species, and the app overview.</p>
+              <h3 class="h6">Palaeobiology</h3>
+              <p class="mb-0 text-muted">Ankylosaurus was a heavily armored, slow-moving herbivore whose rigid, fused skeleton and extensive bony armor made it one of the most defensively adapted dinosaurs of its time.</p>
             </article>
           </div>
         </div>
